@@ -21,10 +21,10 @@ return {
           enabled = true,
           auto_trigger = true,
           keymap = {
-            accept = "<M-l>", -- Alt+l to accept suggestion
+            accept = "<M-y>",
             prev = "<M-[>",
             next = "<M-]>",
-            dismiss = "<C-]>",
+            dismiss = "<M-n>",
           },
         },
       })
