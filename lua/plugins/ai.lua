@@ -36,6 +36,7 @@ return {
     dependencies = {
       "nvim-lua/plenary.nvim",
       "nvim-treesitter/nvim-treesitter",
+      "ravitemer/mcphub.nvim",
     },
     config = function()
       require("codecompanion").setup({
@@ -58,12 +59,6 @@ return {
         },
       })
     end,
-  },
-  {
-    "olimorris/codecompanion.nvim",
-    dependencies = {
-      "ravitemer/mcphub.nvim",
-    },
   },
   {
     "MeanderingProgrammer/render-markdown.nvim",
