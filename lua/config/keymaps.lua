@@ -4,4 +4,4 @@
 --
 --
 vim.keymap.set("n", "<leader>C", ":CodeCompanionChat<CR>", { desc = "Trigger CodeCompanionChat" })
-vim.keymap.set("n", "<leader>A", ":CodeCompanionActions<CR>", { desc = "Trigger CodeCompanionChat" })
+vim.keymap.set("n", "<leader>a", ":CodeCompanionActions<CR>", { desc = "Trigger CodeCompanionChat" })
